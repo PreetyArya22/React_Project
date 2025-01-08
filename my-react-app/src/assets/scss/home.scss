@@ -84,6 +84,9 @@
     .input-box {  
       .width-section {
         width: 100px;
+        ::placeholder{
+          font-size: small;
+        }
       }
       .button-width {
         width: 87px;
