@@ -36,3 +36,29 @@ export const LearningData = [
     Role:"Role"
   },
 ]
+
+// FAQ SECTION DATA
+
+export  const FaqSection_data = [
+  {
+    Question : "Who should use the app?",
+    Answer : "For Good Looking UI",
+  },
+  {
+    Question : "What is included with my subscription?",
+    Answer : "For Good Looking UI",
+  },
+  {
+    Question : "How do I get paid?",
+    Answer : "For Good Looking UI",
+  },
+  {
+    Question : "Is my personal information safe?",
+    Answer : "For Good Looking UI",
+  },
+  {
+    Question : "How can we get in touch?",
+    Answer : "For Good Looking UI",
+  },
+
+]
