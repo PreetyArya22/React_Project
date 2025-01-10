@@ -1,6 +1,7 @@
 import img_1 from "../../assets/Imges/HeroSection_Img/Vector.png";
 import img_2 from "../../assets/Imges/HeroSection_Img/Group 46.png";
-import { FaRegUser } from "react-icons/fa6";
+import { FaRegHeart, FaRegUser } from "react-icons/fa6";
+import { CiHeart } from "react-icons/ci";
 
 export const LearningData = [
   {
@@ -59,6 +60,77 @@ export  const FaqSection_data = [
   {
     Question : "How can we get in touch?",
     Answer : "For Good Looking UI",
+  },
+
+]
+
+// BOOTCAMP DATA 
+export const Bootcamp_Card = [
+  {
+    btn_1 : "Figma",
+    btn_2 : "Tech" ,
+    btn_3 : "Free",
+    Profession : "UI designer",
+    icon :  <CiHeart />,
+    pera_1 : "Learn UI/UX Designing with Datacode ",
+    pera_2 : "Starting on : 25 April 2024" , 
+    btn_4 : "Apply Now",
+    pera_3 : "Applied"
+  },
+  {
+    btn_1 : "Figma",
+    btn_2 : "Tech" ,
+    btn_3 : "Free",
+    Profession : "UI designer",
+    icon :  <CiHeart />,
+    pera_1 : "Learn UI/UX Designing with Datacode ",
+    pera_2 : "Starting on : 25 April 2024" , 
+    btn_4 : "Apply Now",
+    pera_3 : "Applied"
+  },
+  {
+    btn_1 : "Figma",
+    btn_2 : "Tech" ,
+    btn_3 : "Free",
+    Profession : "UI designer",
+    icon :  <CiHeart />,
+    pera_1 : "Learn UI/UX Designing with Datacode ",
+    pera_2 : "Starting on : 25 April 2024" , 
+    btn_4 : "Apply Now",
+    pera_3 : "Applied"
+  },
+  {
+    btn_1 : "Figma",
+    btn_2 : "Tech" ,
+    btn_3 : "Free",
+    Profession : "UI designer",
+    icon :  <CiHeart />,
+    pera_1 : "Learn UI/UX Designing with Datacode ",
+    pera_2 : "Starting on : 25 April 2024" , 
+    btn_4 : "Apply Now",
+    pera_3 : "Applied"
+  },
+  {
+    btn_1 : "Figma",
+    btn_2 : "Tech" ,
+    btn_3 : "Free",
+    Profession : "UI designer",
+    icon :  <CiHeart />,
+    pera_1 : "Learn UI/UX Designing with Datacode ",
+    pera_2 : "Starting on : 25 April 2024" , 
+    btn_4 : "Apply Now",
+    pera_3 : "Applied"
+  },
+  {
+    btn_1 : "Figma",
+    btn_2 : "Tech" ,
+    btn_3 : "Free",
+    Profession : "UI designer",
+    icon :  <CiHeart />,
+    pera_1 : "Learn UI/UX Designing with Datacode ",
+    pera_2 : "Starting on : 25 April 2024" , 
+    btn_4 : "Apply Now",
+    pera_3 : "Applied"
   },
 
 ]
