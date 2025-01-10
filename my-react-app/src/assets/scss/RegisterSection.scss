@@ -1,0 +1,65 @@
+@import "./Variable.scss";
+.Register{
+  .RegisterSection {
+    .Register_img_section {
+      width: 605px;
+      height: 482px;
+      // box-shadow: 0px 28px 21.2px 0px #00000040;
+    }
+    h1 {
+      font-family: $Montserrat_Font;
+      font-size: 42px;
+      font-weight: 700;
+      line-height: 46.2px;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+      color: transparent;
+      background: $H1_text-backgroundColor;
+      -webkit-background-clip: text;
+      span {
+        color: black;
+      }
+    }
+    p {
+      font-family: $Montserrat_Font;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 30px;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+      color: $ColorText111111;
+    }
+  }
+  .process-img{
+    width: 1000px;
+    height: 226px;
+  
+    opacity: 0px;
+  }
+}
+
+
+@media (max-width: 480px) {
+  @import "./Variable.scss";
+  .Register{
+  .RegisterSection {
+    .Register_img_section {
+      width: 405px;
+      height: 282px;
+    }
+    h1 {
+      font-size: 42px;
+      line-height: 46.2px;
+    }
+    p {
+      font-size: 18px;
+      line-height: 30px;
+    }
+  }
+  .process-img{
+    width: 400px;
+    height: 106px;
+    opacity: 0px;
+  }
+}
+}

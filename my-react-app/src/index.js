@@ -6,8 +6,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import "./assets/scss/LearningSection.scss"
 import App from "./App";
 import "slick-carousel/slick/slick.css";
+import "./assets/scss/RegisterSection.scss";
 import "slick-carousel/slick/slick-theme.css";
 import reportWebVitals from "./reportWebVitals";
+import "./assets/scss/Comman.scss";
+import "./assets/scss/Faq.scss";
 // import {BrowserRouter} from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
