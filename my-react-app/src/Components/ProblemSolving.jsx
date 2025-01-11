@@ -45,7 +45,7 @@ export default function ProblemSolving() {
                 </div>
               </div>
               <div
-                className="card border-0 rounded-3 position-relative  div-1"
+                className="card border-0 rounded-3 position-relative  div-1 div-3"
                 style={{
                   backgroundColor: "#04A93B",
                   zIndex: 2,
