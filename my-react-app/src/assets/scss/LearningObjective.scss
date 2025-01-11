@@ -1,0 +1,25 @@
+@import "./Variable.scss";
+.LearningBootcamp {
+  background: #f0effe;
+
+  .LearningBootcamp_Row_2 {
+    .head-1 {
+      font-family: $Montserrat_Font;
+      font-size: 22px;
+      font-weight: 600;
+      line-height: 26.82px;
+      color: $Text_Color_111111;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+    }
+    .pera-1 {
+      font-family: $Montserrat_Font;
+      font-size: 16px;
+      color: $Text_Color_111111;
+      font-weight: 400;
+      line-height: 26px;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+    }
+  }
+}

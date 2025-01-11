@@ -1,6 +1,6 @@
 import React from "react";
 import img from "../assets/Imges/HeroSection_Img/Group (2).png"
-import img_left from "../assets/Imges/HeroSection_Img/Left side.png"
+
 
 export default function HeroSection() {
   return (
