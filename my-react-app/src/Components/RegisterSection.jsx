@@ -1,7 +1,6 @@
 import React from 'react'
 import img_main from "../assets/Imges/HeroSection_Img/Untitled design (12) 1 (1).png";
 import { IoCodeSlash } from 'react-icons/io5';
-import { FaHandPointUp } from 'react-icons/fa';
 import img from "../assets/Imges/HeroSection_Img/image 8.png"
 
 export default function RegisterSection() {

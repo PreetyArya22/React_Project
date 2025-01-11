@@ -1,8 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import { FaqSection_data } from "./Constants/Constants";
 import { FaPlus } from "react-icons/fa6";
 
 export default function FaqSection() {
+  const [openItems, setOpenItems] = useState({}); // State to track open items
+
+  const handleChange = (index) => {
+    setOpenItems((prev) => ({
+      ...prev,
+      [index]: !prev[index], // Toggle the specific FAQ item
+    }));
+  };
+
   return (
     <div className="row mx-0 justify-content-center">
       <div className="col-12 px-0">
@@ -19,9 +28,11 @@ export default function FaqSection() {
                     <div className="card-body">
                       <div className="d-flex justify-content-between align-items-center">
                       <h5>{data.Question}</h5>
-                      <span><FaPlus /></span>
+                      <span  onClick={() => handleChange(index)}><FaPlus /></span>
                       </div>
-                      <p className="d-none">{data.Answer}</p>
+                      {openItems[index] && (
+                        <p className="m-0">{data.Answer}</p>
+                      )}
                     </div>
                   </div>
                 </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import Slider from "react-slick";
 import { LearningData } from "./Constants/Constants";
-import { CustomNextArrow, CustomPrevArrow } from "./ArrowFunction";
+// import { CustomNextArrow, CustomPrevArrow } from "./ArrowFunction";
 export default function LearningSection() {
   var settings = {
     dots: false,

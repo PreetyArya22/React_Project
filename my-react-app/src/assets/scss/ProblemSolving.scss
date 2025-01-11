@@ -1,0 +1,87 @@
+@import "./Variable.scss";
+
+.ProblemSolving {
+  .ProblemSolving_Section {
+    .heading {
+      font-family: $Montserrat_Font;
+      color: $h3TextColor_000000AB;
+      font-size: 37px;
+      font-weight: 700;
+      text-align: left;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+    }
+    .div-2 {
+      h1 {
+        font-family: $fontFamilyPoppins;
+        font-size: 62px;
+        font-weight: 700;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        .span-1 {
+          color: red;
+        }
+        .span-2 {
+          color: transparent;
+          background: $H1_text-backgroundColor;
+          -webkit-background-clip: text;
+        }
+      }
+      button {
+        background-color: $ButtonColor_7848F4;
+        color: $heading_font_color;
+        font-family: $Roboto_family;
+        font-size: 16px !important;
+        font-weight: 400;
+        line-height: 18.75px;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+      }
+    }
+    .div-1 {
+      color: $heading_font_color;
+      width: 200px;
+      height: 140px;
+      box-shadow: 0 4px 10px rgba(41, 40, 40, 0.6) !important;
+      span {
+        font-size: 35px;
+      }
+      p {
+        font-weight: 200;
+        font-size: 14px;
+      }
+    }
+  }
+}
+@media (max-width: 480px) {
+  .ProblemSolving {
+    .ProblemSolving_Section {
+      .heading {
+        font-family: $Montserrat_Font;
+        color: $h3TextColor_000000AB;
+        font-size: 37px;
+        font-weight: 700;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+      }
+      .div-2 {
+        h1 {
+          font-family: $fontFamilyPoppins;
+          font-size: 32px;
+        }
+      }
+      .div-1 {
+        color: $heading_font_color;
+        width: 150px;
+        height: 140px;
+        span {
+          font-size: 25px;
+        }
+        p {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
