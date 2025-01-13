@@ -17,6 +17,7 @@ import "./assets/scss/Advantages.scss";
 import "./assets/scss/LearningObjective.scss";
 import "./assets/scss/OurBootcamp.scss"
 import "./assets/scss/ProblemSolving.scss"
+import "./assets/scss/Bonuses.scss"
 // import {BrowserRouter} from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));

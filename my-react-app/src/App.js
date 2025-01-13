@@ -1,7 +1,9 @@
 import "./App.css";
 import Advantages from "./Components/Advantages.jsx";
+import Bonuses from "./Components/Bonuses.jsx";
 import FaqSection from "./Components/FaqSection";
 import HeroSection from "./Components/HeroSection";
+import JoinProgram from "./Components/JoinProgram.jsx";
 import LearningBootcamp from "./Components/LearningBootcamp.jsx";
 import LearningSection from "./Components/LearningSection";
 import OurBootcamps from "./Components/OurBootcamps.jsx";
@@ -28,10 +30,16 @@ function App() {
         <Advantages />
       </div>
       <div className="py-5">
+        <Bonuses />
+      </div>
+      <div className="py-5">
         <LearningBootcamp />
       </div>
       <div className="py-5">
         <RegisterSection />
+      </div>
+      <div className="py-5">
+        <JoinProgram/>
       </div>
       <div className="py-5">
         <LearningSection />

@@ -3,7 +3,7 @@ import { Learning_Objective } from "./Constants/Constants";
 
 export default function LearningBootcamp() {
   return (
-    <div className="row mx-0 LearningBootcamp pb-3">
+    <div className="row mx-0 LearningBootcamp pb-3 mt-5">
       <div className="col-12 px-lg-0 px-2">
         <div className="text-center div-1 py-5">
           <h6>Unlock Your Potential & Master Essential Skills with</h6>

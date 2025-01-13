@@ -1,6 +1,6 @@
 @import "../scss/Variable.scss";
 
-.LearningSection{
+.LearningSection {
   background-color: $LearningSectionBg_Color;
   // .div-1{
   //   h6{
@@ -26,43 +26,42 @@
   //     -webkit-background-clip: text;
   //   }
   // }
-  .div-2{
+  .div-2 {
     width: 551px;
     gap: 16px;
     border: 1px 0px 0px 0px;
     opacity: 0px;
-    background: #FFFFFF;
-    border: 1px solid #DDE1E6;
-    h4{
+    background: #ffffff;
+    border: 1px solid #dde1e6;
+    h4 {
       font-family: $Roboto_family;
       font-size: 24px;
       font-weight: 700;
       line-height: 26.4px;
       text-underline-position: from-font;
       text-decoration-skip-ink: none;
-      color:$TextColor697077;
+      color: $TextColor697077;
     }
-    p{
-      font-family:  $Roboto_family;
+    p {
+      font-family: $Roboto_family;
       font-size: 18px;
       font-weight: 400;
       line-height: 25.2px;
       text-underline-position: from-font;
       text-decoration-skip-ink: none;
-      color:$TextColor21272A;
+      color: $TextColor21272A;
     }
-    .icon-div{
+    .icon-div {
       height: 48px;
       width: 48px;
-      background: #F2F4F8;
-      span{
+      background: #f2f4f8;
+      span {
         line-height: 1;
-        color:$IconColor;
+        color: $IconColor;
       }
     }
-    h6{
-
-      font-family:  $Roboto_family;
+    h6 {
+      font-family: $Roboto_family;
       font-size: 24px;
       font-weight: 700;
       line-height: 26.4px;
@@ -70,15 +69,14 @@
       text-decoration-skip-ink: none;
       color: $TextColor21272A;
     }
-    .role{
-        font-family:  $Roboto_family;
-        font-size: 18px;
-        font-weight: 400;
-        line-height: 25.2px;
-        text-underline-position: from-font;
-        text-decoration-skip-ink: none;
-        color: $TextColor21272A;
-
+    .role {
+      font-family: $Roboto_family;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 25.2px;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+      color: $TextColor21272A;
     }
   }
 }

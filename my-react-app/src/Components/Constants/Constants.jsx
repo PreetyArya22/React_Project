@@ -166,23 +166,23 @@ export const Learning_Objective = [
 
 export const Advantage_Data = [
   {
-    icon:<FaRegCopyright  style={{color:"blue"}}/>,
+    icon: <FaRegCopyright style={{ color: "blue" }} />,
     heading: "Get Personal Membership",
-    pera:"Broaden your thinking sphere, and go beyond basic while trying to solve complex problems Broaden your thinking sphere."
+    pera: "Broaden your thinking sphere, and go beyond basic while trying to solve complex problems Broaden your thinking sphere.",
   },
   {
-    icon:<FaRegCopyright style={{color:"red"}}/>,
+    icon: <FaRegCopyright style={{ color: "red" }} />,
     heading: "Get Personal Membership",
-    pera:"Broaden your thinking sphere, and go beyond basic while trying to solve complex problems Broaden your thinking sphere."
+    pera: "Broaden your thinking sphere, and go beyond basic while trying to solve complex problems Broaden your thinking sphere.",
   },
   {
-    icon:<FaRegCopyright style={{color:"purple"}}/>,
+    icon: <FaRegCopyright style={{ color: "purple" }} />,
     heading: "Get Personal Membership",
-    pera:"Broaden your thinking sphere, and go beyond basic while trying to solve complex problems Broaden your thinking sphere."
+    pera: "Broaden your thinking sphere, and go beyond basic while trying to solve complex problems Broaden your thinking sphere.",
   },
   {
-    icon:<FaRegCopyright style={{color:"green"}}/>,
+    icon: <FaRegCopyright style={{ color: "green" }} />,
     heading: "Get Personal Membership",
-    pera:"Broaden your thinking sphere, and go beyond basic while trying to solve complex problems Broaden your thinking sphere."
+    pera: "Broaden your thinking sphere, and go beyond basic while trying to solve complex problems Broaden your thinking sphere.",
   },
-]
+];
