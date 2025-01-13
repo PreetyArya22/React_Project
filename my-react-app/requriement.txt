@@ -1,1 +1,2 @@
 1. Use react-slick Carousel Package 
+mix-blend-bond property of css for removing background of img style={{mixBlendMode:"multiply"}}

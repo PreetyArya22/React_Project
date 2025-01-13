@@ -1,25 +1,25 @@
 @import "../scss//Variable.scss";
-  .div-1{
-    h6{
-      font-family:$Montserrat_Font;
-      font-size: 20px;
-      font-weight: 700;
-      line-height: 22px;
-      text-underline-position: from-font;
-      text-decoration-skip-ink: none;
-      color:transparent;
-      background: $H6_TextColor;
-      -webkit-background-clip: text;
-    }
-    h1{
-      font-family:$Montserrat_Font;
-      font-size: 42px;
-      font-weight: 700;
-      line-height: 46.2px;
-      text-underline-position: from-font;
-      text-decoration-skip-ink: none;
-      color:transparent;
-      background: $H1_text-backgroundColor;
-      -webkit-background-clip: text;
-    }
+.div-1 {
+  h6 {
+    font-family: $Montserrat_Font;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 22px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: transparent;
+    background: $H6_TextColor;
+    -webkit-background-clip: text;
   }
+  h1 {
+    font-family: $Montserrat_Font;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 46.2px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: transparent;
+    background: $H1_text-backgroundColor;
+    -webkit-background-clip: text;
+  }
+}

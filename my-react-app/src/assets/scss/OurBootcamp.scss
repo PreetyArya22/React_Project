@@ -23,9 +23,9 @@
   .OurBootcampCard_Contain {
     width: 320px;
     background: #3a3a3a;
-    color: $font_Color_ffffff;
+    color: $heading_font_color;
     font-family: $Montserrat_Font;
-    .head-1{
+    .head-1 {
       font-family: inherit;
       font-size: 20px;
       font-weight: 700;
@@ -33,48 +33,44 @@
       text-underline-position: from-font;
       text-decoration-skip-ink: none;
     }
-    .span-1{
+    .span-1 {
       font-size: 23px;
     }
-    .pera-1{
+    .pera-1 {
       font-family: inherit;
       font-size: 14px;
       font-weight: 400;
       line-height: 17.07px;
       text-underline-position: from-font;
       text-decoration-skip-ink: none;
-
     }
-    .btn-1{
+    .btn-1 {
       font-family: inherit;
-      width:92px;
+      width: 92px;
       font-size: 14.79px;
       font-weight: 400;
       line-height: 18.03px;
       text-underline-position: from-font;
       text-decoration-skip-ink: none;
-
     }
-    .btn-2{
+    .btn-2 {
       width: 105px;
       background: $ButtonColor_7848F4;
       font-family: $Roboto_family !important;
       font-size: 12px;
       font-weight: 400;
       line-height: 14.06px;
-      color:$font_Color_ffffff;
+      color: $heading_font_color;
       text-underline-position: from-font;
       text-decoration-skip-ink: none;
-
     }
-    .pera-2{
+    .pera-2 {
       font-family: inherit;
       font-size: 14.79px;
       font-weight: 700;
       line-height: 18.03px;
       text-underline-position: from-font;
       text-decoration-skip-ink: none;
-
     }
   }
 }

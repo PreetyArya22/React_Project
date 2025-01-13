@@ -1,5 +1,5 @@
 @import "./Variable.scss";
-.Register{
+.Register {
   .RegisterSection {
     .Register_img_section {
       width: 605px;
@@ -30,36 +30,34 @@
       color: $ColorText111111;
     }
   }
-  .process-img{
+  .process-img {
     width: 1000px;
     height: 226px;
-  
+
     opacity: 0px;
   }
 }
-
 
 @media (max-width: 480px) {
-  @import "./Variable.scss";
-  .Register{
-  .RegisterSection {
-    .Register_img_section {
-      width: 405px;
-      height: 282px;
+  .Register {
+    .RegisterSection {
+      .Register_img_section {
+        width: 405px;
+        height: 282px;
+      }
+      h1 {
+        font-size: 42px;
+        line-height: 46.2px;
+      }
+      p {
+        font-size: 18px;
+        line-height: 30px;
+      }
     }
-    h1 {
-      font-size: 42px;
-      line-height: 46.2px;
-    }
-    p {
-      font-size: 18px;
-      line-height: 30px;
+    .process-img {
+      width: 400px;
+      height: 106px;
+      opacity: 0px;
     }
   }
-  .process-img{
-    width: 400px;
-    height: 106px;
-    opacity: 0px;
-  }
-}
 }

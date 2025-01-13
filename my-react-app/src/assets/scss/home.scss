@@ -54,7 +54,6 @@
     }
     .button-section {
       button {
-        
         color: #7848f4;
         width: 281px;
         font-family: $font_family_Roboto;
@@ -69,10 +68,9 @@
   }
 }
 
+// Mobile View
 
-// Mobile View 
-
-@media (max-width:480px) {
+@media (max-width: 480px) {
   .hero-section {
     b,
     h1 {
@@ -81,10 +79,10 @@
     p {
       font-size: 25px;
     }
-    .input-box {  
+    .input-box {
       .width-section {
         width: 100px;
-        ::placeholder{
+        ::placeholder {
           font-size: small;
         }
       }
@@ -93,18 +91,17 @@
       }
     }
     .content-section {
-      .arrow-img{
-        width:50px;
+      .arrow-img {
+        width: 50px;
       }
       .content-section-pera {
         font-size: 17px;
-      .button-section {
-        button {   
-             
-          font-size: 15px ;
+        .button-section {
+          button {
+            font-size: 15px;
+          }
         }
       }
     }
   }
-}
 }

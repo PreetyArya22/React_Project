@@ -1,6 +1,5 @@
 import React from "react";
-import img from "../assets/Imges/HeroSection_Img/Group (2).png"
-
+import img from "../assets/Imges/HeroSection_Img/Group (2).png";
 
 export default function HeroSection() {
   return (
@@ -13,7 +12,7 @@ export default function HeroSection() {
             </b>
             <p>Your Pathway to Your Dream Tech Future</p>
           </div>
-          <div className="row mx-0 justify-content-center align-items-center">    
+          <div className="row mx-0 justify-content-center align-items-center">
             <div className="col-lg-7 col-12  justify-content-center  align-items-center img-section">
               <div className="d-flex input-box p-3  align-items-center justify-content-center gap-lg-3 gap-2">
                 <div className="input-group width-section">
@@ -39,13 +38,19 @@ export default function HeroSection() {
                 </div>
               </div>
               <div className="content-section d-flex  flex-column justify-content-lg-start justify-content-center align-items-lg-start align-items-center">
-              <p className="content-section-pera">Batch Registrations are opening soon</p>
-              <div className="d-flex gap-3">
-                 <div className="ps-lg-5 ps-0 pt-2 arrow-img d-lg-block d-none"><img src={img} alt=""/></div>
-                <div className="text-center justify-content-between align-items-center button-section pt-5">
-                <button className="btn btn-light py-lg-3 py-2">Sign Up Today</button>
+                <p className="content-section-pera">
+                  Batch Registrations are opening soon
+                </p>
+                <div className="d-flex gap-3">
+                  <div className="ps-lg-5 ps-0 pt-2 arrow-img d-lg-block d-none">
+                    <img src={img} alt="" />
+                  </div>
+                  <div className="text-center justify-content-between align-items-center button-section pt-5">
+                    <button className="btn btn-light py-lg-3 py-2">
+                      Sign Up Today
+                    </button>
+                  </div>
                 </div>
-              </div>
               </div>
             </div>
           </div>
