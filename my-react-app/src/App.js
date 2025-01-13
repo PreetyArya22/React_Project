@@ -1,5 +1,6 @@
 import "./App.css";
 import Advantages from "./Components/Advantages.jsx";
+import Bonuses from "./Components/Bonuses.jsx";
 import FaqSection from "./Components/FaqSection";
 import HeroSection from "./Components/HeroSection";
 import LearningBootcamp from "./Components/LearningBootcamp.jsx";
