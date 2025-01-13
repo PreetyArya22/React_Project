@@ -12,6 +12,7 @@ import "slick-carousel/slick/slick-theme.css";
 import reportWebVitals from "./reportWebVitals";
 import "./assets/scss/Comman.scss";
 import "./assets/scss/Faq.scss";
+import "./assets/scss/Scholarship.scss" ;
 import "./assets/scss/Advantages.scss";
 import "./assets/scss/LearningObjective.scss";
 import "./assets/scss/OurBootcamp.scss"
